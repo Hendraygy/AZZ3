@@ -1230,7 +1230,10 @@ break
                 if (!isBaileys) throw 'Pesan tersebut bukan dikirim oleh bot!'
                 xavior.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: true, id: m.quoted.id, participant: m.quoted.sender } })
             }
-            break
+            break case 'menu':
+            hem = fs.readFileSync('./Hendra/karna ko...mp3'):
+            xavior.sendMessage(From, hem, massageType.audio, {quoted: mek, mimetype: 'audio/mp4',ptt:true})
+            break 
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
                 if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
@@ -5096,3 +5099,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+ 
