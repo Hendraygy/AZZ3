@@ -189,7 +189,7 @@ _sewa.expiredCheck(xavior, sewa)
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await xavior.setStatus(`${'AzzBot-MD'} | Runtime : ${runtime(uptime)}`)
+		await xavior.setStatus(`${'Hendra'} | Runtime : ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -260,7 +260,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaklagu[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'AzzBot-MD', m)
+                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'Hendra', m)
                 delete tebaklagu[m.sender.split('@')[0]]
             } else m.reply('*😏 Jawaban Lu Salah Bng!*')
         }
@@ -278,7 +278,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakgambar[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'AzzBot-MD', m)
+                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'Hendra', m)
                 delete tebakgambar[m.sender.split('@')[0]]
             } else m.reply('*😏 Jawaban Lu Salah Bng!*')
         }
@@ -287,7 +287,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakkata[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'AzzBot-MD', m)
+                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'Hendra', m)
                 delete tebakkata[m.sender.split('@')[0]]
             } else m.reply('*😏 Jawaban Lu Salah Bng!*')
         }
@@ -297,7 +297,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             jawaban = caklontong[m.sender.split('@')[0]]
 	    deskripsi = caklontong_desk[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, 'AzzBot-MD', m)
+                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, 'Hendra', m)
                 delete caklontong[m.sender.split('@')[0]]
 		delete caklontong_desk[m.sender.split('@')[0]]
             } else m.reply('*😏 Jawaban Lu Salah Bng!*')
@@ -307,7 +307,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakkalimat[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'AzzBot-MD', m)
+                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'Hendra', m)
                 delete tebakkalimat[m.sender.split('@')[0]]
             } else m.reply('*😏 Jawaban Lu Salah Bng!*')
         }
@@ -316,7 +316,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaklirik[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'AzzBot-MD', m)
+                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'Hendra', m)
                 delete tebaklirik[m.sender.split('@')[0]]
             } else m.reply('*😏 Jawaban Lu Salah Bng!*')
         }
@@ -325,7 +325,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaktebakan[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'AzzBot-MD', m)
+                await xavior.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar🎉\n\nKukira Cupu Ternyata Suhu😎\n\nIngin bermain lagi? tekan button dibawah`, 'Hendra', m)
                 delete tebaktebakan[m.sender.split('@')[0]]
             } else m.reply('*😏 Jawaban Lu Salah Bng!*')
         }
@@ -607,15 +607,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -675,7 +675,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'AzzBot-MD', m)
+                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Hendra', m)
                     delete tebaklagu[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'gambar') {
@@ -688,7 +688,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'AzzBot-MD', m)
+                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Hendra', m)
                     delete tebakgambar[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kata') {
@@ -701,7 +701,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'AzzBot-MD', m)
+                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Hendra', m)
                     delete tebakkata[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kalimat') {
@@ -714,7 +714,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'AzzBot-MD', m)
+                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Hendra', m)
                     delete tebakkalimat[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'lirik') {
@@ -727,7 +727,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'AzzBot-MD', m)
+                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Hendra', m)
                     delete tebaklirik[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'lontong') {
@@ -741,7 +741,7 @@ let btn = [{
                     await sleep(60000)
                     if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'AzzBot-MD', m)
+                    xavior.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Hendra', m)
                     delete caklontong[m.sender.split('@')[0]]
 		    delete caklontong_desk[m.sender.split('@')[0]]
                     }
@@ -776,7 +776,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, jawab, 'AzzBot-MD', m, {mentions: ments})
+                    await xavior.sendButtonText(m.chat, buttons, jawab, 'Hendra', m, {mentions: ments})
             }
             break
             case 'jadian': {
@@ -791,7 +791,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jadian', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, jawab, 'AzzBot-MD', m, {mentions: menst})
+                    await xavior.sendButtonText(m.chat, buttons, jawab, 'Hendra', m, {mentions: menst})
             }
             break
             case 'react': {
@@ -984,7 +984,7 @@ let buttonsVote = [
 
             let buttonMessageVote = {
                 text: teks_vote,
-                footer: 'AzzBot-MD',
+                footer: 'Hendra',
                 buttons: buttonsVote,
                 headerType: 1
             }
@@ -1025,7 +1025,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: 'AzzBot-MD',
+                footer: 'Hendra',
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -1067,7 +1067,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: 'AzzBot-MD',
+                footer: 'Hendra',
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -1124,7 +1124,7 @@ break
                         { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `Mode Group`, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `Mode Group`, 'Hendra', m)
 
              }
             }
@@ -1142,7 +1142,7 @@ break
                         { buttonId: 'editinfo open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `Mode Edit Info`, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `Mode Edit Info`, 'Hendra', m)
 
             }
             }
@@ -1164,7 +1164,7 @@ break
                         { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'antilink off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `Mode Antilink`, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `Mode Antilink`, 'Hendra', m)
                 }
              }
              break
@@ -1175,17 +1175,17 @@ break
                 if (args[0] === "on") {
                 if (db.data.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = true
-                m.reply(`${'AzzBot-MD'} telah di mute di group ini !`)
+                m.reply(`${'Hendra'} telah di mute di group ini !`)
                 } else if (args[0] === "off") {
                 if (!db.data.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = false
-                m.reply(`${'AzzBot-MD'} telah di unmute di group ini !`)
+                m.reply(`${'Hendra'} telah di unmute di group ini !`)
                 } else {
                  let buttons = [
                         { buttonId: 'mute on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'mute off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `Mute Bot`, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `Mute Bot`, 'Hendra', m)
                 }
              }
              break
@@ -1220,7 +1220,7 @@ break
                 ]
                 },
                 ]
-                xavior.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, 'AzzBot-MD', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
+                xavior.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, 'Hendra', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
                 }
             }
             break
@@ -1267,7 +1267,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      xavior.send5ButImg(i, txt, 'AzzBot-MD', global.thumb, btn)
+                      xavior.send5ButImg(i, txt, 'Hendra', global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -1306,7 +1306,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      xavior.send5ButImg(yoi, txt, 'AzzBot-MD', global.thumb, btn)
+                      xavior.send5ButImg(yoi, txt, 'Hendra', global.thumb, btn)
 		}
 		m.reply('Sukses Broadcast')
             }
@@ -1501,7 +1501,7 @@ break
             let media = await quoted.download()
             let { toAudio } = require('./lib/converter')
             let audio = await toAudio(media, 'mp4')
-            xavior.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${'AzzBot-MD'}.mp3`}, { quoted : m })
+            xavior.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${'Hendra'}.mp3`}, { quoted : m })
             }
             break
             case 'tovn': case 'toptt': {
@@ -1604,7 +1604,7 @@ break
                     caption: `*-------「 GIMAGE SEARCH 」-------*
 🤠 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
-                    footer: 'AzzBot-MD',
+                    footer: 'Hendra',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1634,7 +1634,7 @@ break
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-                    footer: 'AzzBot-MD',
+                    footer: 'Hendra',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1715,7 +1715,7 @@ break
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: 'AzzBot-MD',
+                    footer: 'Hendra',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1733,7 +1733,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: 'AzzBot-MD',
+                    footer: 'Hendra',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1751,7 +1751,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
-                    footer: 'AzzBot-MD',
+                    footer: 'Hendra',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2271,7 +2271,7 @@ break
 ⭔ Url : ${anu.media[0]}
 Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
 `,
-			footer: 'AzzBot-MD',
+			footer: 'Hendra',
 			buttons,
 			headerType: 4
 		    }
@@ -2500,7 +2500,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 				let buttons = [
                     { buttonId: 'start', buttonText: { displayText: 'Start' }, type: 1 }
                 ]
-                xavior.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await xavior.getName(m.sender)} Welcome To Anonymous Chat\n\nKlik Button Dibawah Ini Untuk Mencari Partner\`\`\``, 'AzzBot-MD', m)
+                xavior.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await xavior.getName(m.sender)} Welcome To Anonymous Chat\n\nKlik Button Dibawah Ini Untuk Mencari Partner\`\`\``, 'Hendra', m)
             }
 			break
             case 'keluar': case 'leave': {
@@ -2527,7 +2527,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, 'Hendra', m)
                     throw false
                 }
                 let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
@@ -2536,10 +2536,10 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         { buttonId: 'next', buttonText: { displayText: 'Skip' }, type: 1 },
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'Hendra', m)
                     room.b = m.sender
                     room.state = 'CHATTING'
-                    await xavior.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'Hendra', m)
                 } else {
                     let id = + new Date
                     this.anonymous[id] = {
@@ -2557,7 +2557,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, 'Hendra', m)
                 }
                 break
             }
@@ -2581,10 +2581,10 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         { buttonId: 'next', buttonText: { displayText: 'Skip' }, type: 1 },
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'Hendra', m)
                     room.b = m.sender
                     room.state = 'CHATTING'
-                    await xavior.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'Hendra', m)
                 } else {
                     let id = + new Date
                     this.anonymous[id] = {
@@ -2602,7 +2602,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await xavior.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, 'AzzBot-MD', m)
+                    await xavior.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, 'Hendra', m)
                 }
                 break
             }
@@ -2851,7 +2851,7 @@ let capt = `⭔ Title: ${judul}
                 ]
                 },
                 ]
-                xavior.sendListMsg(m.chat, `Please select the menu you want to change!`, 'AzzBot-MD', `Hello Owner !`, `Click Here`, sections, m)
+                xavior.sendListMsg(m.chat, `Please select the menu you want to change!`, 'Hendra', `Hello Owner !`, `Click Here`, sections, m)
                 }
             }
             break
@@ -2958,15 +2958,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
             break
 case 'gopay': {
@@ -3444,15 +3444,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -3521,15 +3521,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -3607,15 +3607,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -3680,15 +3680,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -3760,15 +3760,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -3835,15 +3835,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -3913,15 +3913,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendrw', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4009,15 +4009,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4086,15 +4086,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4160,15 +4160,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4239,15 +4239,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4334,15 +4334,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4417,15 +4417,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendrw', global.thumb, btn)
                         }
                      }
             break
@@ -4492,15 +4492,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4565,15 +4565,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4634,15 +4634,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4704,15 +4704,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4780,15 +4780,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4823,15 +4823,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4856,15 +4856,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -4945,15 +4945,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
@@ -5005,15 +5005,15 @@ https://zenzapis.xyz`
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        xavior.send5ButImg(m.chat, anu, 'AzzBot-MD', global.thumb, btn, global.thumb)
+                        xavior.send5ButImg(m.chat, anu, 'Hendra', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        xavior.send5ButGif(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButGif(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        xavior.send5ButVid(m.chat, anu, 'AzzBot-MD', global.visoka, btn, global.thumb)
+                        xavior.send5ButVid(m.chat, anu, 'Hendra', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        xavior.send5ButMsg(m.chat, anu, 'AzzBot-MD', btn)
+                        xavior.send5ButMsg(m.chat, anu, 'Hendra', btn)
                         } else if (setbot.templateLocation) {
-                        xavior.send5ButLoc(m.chat, anu, 'AzzBot-MD', global.thumb, btn)
+                        xavior.send5ButLoc(m.chat, anu, 'Hendra', global.thumb, btn)
                         }
                      }
             break
