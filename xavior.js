@@ -1,7 +1,7 @@
 /**
-   * Recode By XaviorOfc
+   * Recode By Hendra
    * Contact Me on wa.me/6281511480762
-   * Follow https://github.com/Xavior88
+   * Follow 
    * Subs Yt XaviorOfc
    * Jangan Diubah Author Nya
 */
@@ -594,15 +594,15 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    
             case 'sc': {
-                anu = `*Kalian Bisa Cek Yt XaviorOfc:*
-https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+                anu = `*Kalian Bisa ke wa.me/6285794152433
 
-*Recode By : Xavior88*
-https://github.com/Xavior88`
+
+*Recode By : Hendra*
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Xavior88'
+                                    url: ''
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -1243,12 +1243,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: '2g'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1282,12 +1282,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -3419,12 +3419,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3496,12 +3496,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3582,12 +3582,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3655,12 +3655,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3735,12 +3735,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3810,12 +3810,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3888,12 +3888,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3984,12 +3984,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4061,12 +4061,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4135,12 +4135,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4214,12 +4214,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4309,12 +4309,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4392,12 +4392,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4467,12 +4467,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4540,12 +4540,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4609,12 +4609,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4679,12 +4679,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4755,12 +4755,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4798,12 +4798,12 @@ let btn = [{
                 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4846,12 +4846,12 @@ anu = `╭─❏ *『 DONASI 』*
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4920,12 +4920,12 @@ Pembuatan Bot Ini`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -4972,20 +4972,20 @@ https://github.com/Abuzzpoet
 Sonel :
 https://github.com/sonelstore
 Nanang:
-https://github.com/Xavior88
+
 YahyaGanz:
-https://github.com/AzzBott679
+
 Penyedia Rest Api :
 https://zenzapis.xyz`
 	let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: ''
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: ''
                                 }
                                 }, {
                                 quickReplyButton: {
